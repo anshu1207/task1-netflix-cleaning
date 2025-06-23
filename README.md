@@ -22,11 +22,11 @@ Clean a raw Netflix dataset by handling missing values, duplicates, and inconsis
 5. **Simplified `cast`** → kept only the first actor/actress.
 6. **Cleaned `show_id`** → removed the 's' prefix.
 7. **Extracted `year_added` and `month_added`** from `date_added`.
-8. **Saved the cleaned dataset** as `netflix_titles_cleaned.csv`.
+8. **Saved the cleaned dataset** as `netflix_titles.csv`.
 
 ## Files in This Repo:
 - `netflix_cleaning_task.py` – Python code for cleaning
-- `netflix_titles_cleaned.csv` – Cleaned dataset
+- `netflix_titles.csv` – Cleaned dataset
 - `README.md` – Task summary and steps
 
 ## Output:
